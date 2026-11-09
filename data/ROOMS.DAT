@@ -1,0 +1,10 @@
+COBOL
+ 
+       01  ROOMRECORD.     
+           05  R-ID          PIC 9(3).
+           05  R-TITLE       PIC X(30).
+           05  R-DESC        PIC X(80).
+           05  R-NORTH       PIC 9(3).
+           05  R-SOUTH       PIC 9(3).
+           05  R-EAST        PIC 9(3).
+           05  R-WEST        PIC 9(3).
